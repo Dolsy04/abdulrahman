@@ -1,6 +1,6 @@
 import { IoRocket } from "react-icons/io5";
 import image from '../../assets/image 3.png'
-import resume from "../../assets/rahmanlamidi CV.pdf"
+import resume from "../../assets/Lamidi Abdul-rahman CV.pdf"
 import TypingText from "../ui/autotyping";
 import { Slide } from "react-awesome-reveal";
 export default function HeroSection(){
@@ -18,7 +18,7 @@ export default function HeroSection(){
                             <span className="absolute inset-0 bg-gradient-to-r from-red-300 via-red-500 to-red-600 transition-transform duration-500 translate-x-[-100%] group-hover:translate-x-0"></span>
                             <span className="relative text-base font-extrabold text-white group-hover:text-white transition-color duration-500 font-[mulish] ">Contact Me</span>
                         </button>
-                        <a href={resume} download className="w-[150px] h-[44px] border border-red-600 rounded-lg text-white font-[mulish] font-bold cursor-pointer flex items-center justify-center">View Resume</a>
+                        <a href={resume} download className="w-[150px] h-[44px] border border-red-600 rounded-lg text-white font-[mulish] font-bold cursor-pointer flex items-center justify-center">Download Resume</a>
                     </div>
                 </Slide>
                 </div>

@@ -8,7 +8,7 @@ export default function Contact(){
                 <h2 className="text-4xl font-bold mb-8 text-red-400 text-center">Contact Me</h2>
                 <p className="text-center text-white mb-6 text-base font-[mulish] w-[90%] mx-auto">I'd love to hear from you! Whether you have a question, want to collaborate on a project, or just want to say hello, feel free to reach out.</p>
                 <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-                    <a href="mailto:dollsy04@gmail.com">
+                    <a href="mailto:oyedeleabdulrahmon337@gmail.com">
                         <button className="bg-red-400 font-[mulish] font-bold text-white px-6 py-3 rounded-lg hover:bg-red-500 transition-colors duration-300 cursor-pointer flex items-center gap-2"><CiMail size={24}/>Email Me</button>
                     </a>
                     <a href="https://www.linkedin.com/in/abdulrahman-lamidi-a1704324b" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-white bg-[#6a25d3] px-6 py-3 rounded-lg hover:bg-[#5c1ac7] transition-colors duration-300">
