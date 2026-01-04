@@ -13,12 +13,12 @@ export default function HeroSection(){
                     <p className="mb-6 text-xl text-purple-400 font-[mulish]">Frontend Developer | <span><TypingText /></span></p>
                     <p className="mb-8 text-lg tracking-wide text-white font-[mulish]">Frontend Developer with proven experience building scalable, responsive web applications that prioritize performance and user experience.</p>
 
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center flex-col lg:flex-row md:flex-row gap-4">
                         <button className="bg-gradient-to-r from-indigo-300 via-indigo-500 to-blue-600 w-[150px] h-[44px] rounded-lg cursor-pointer relative overflow-hidden group">
                             <span className="absolute inset-0 bg-gradient-to-r from-red-300 via-red-500 to-red-600 transition-transform duration-500 translate-x-[-100%] group-hover:translate-x-0"></span>
                             <span className="relative text-base font-extrabold text-white group-hover:text-white transition-color duration-500 font-[mulish] ">Contact Me</span>
                         </button>
-                        <a href={resume} download className="w-[150px] h-[44px] px-2 border border-red-600 rounded-lg text-white font-[mulish] font-bold cursor-pointer flex items-center justify-center">Download Resume</a>
+                        <a href={resume} download className="w-[180px] h-[44px] px-2 border border-red-600 rounded-lg text-white font-[mulish] font-bold cursor-pointer flex items-center justify-center">Download Resume</a>
                     </div>
                 </Slide>
                 </div>
