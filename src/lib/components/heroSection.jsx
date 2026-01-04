@@ -18,7 +18,7 @@ export default function HeroSection(){
                             <span className="absolute inset-0 bg-gradient-to-r from-red-300 via-red-500 to-red-600 transition-transform duration-500 translate-x-[-100%] group-hover:translate-x-0"></span>
                             <span className="relative text-base font-extrabold text-white group-hover:text-white transition-color duration-500 font-[mulish] ">Contact Me</span>
                         </button>
-                        <a href={resume} download className="w-[150px] h-[44px] border border-red-600 rounded-lg text-white font-[mulish] font-bold cursor-pointer flex items-center justify-center">Download Resume</a>
+                        <a href={resume} download className="w-[150px] h-[44px] px-2 border border-red-600 rounded-lg text-white font-[mulish] font-bold cursor-pointer flex items-center justify-center">Download Resume</a>
                     </div>
                 </Slide>
                 </div>
