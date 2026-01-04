@@ -7,7 +7,7 @@ const miniServiceCard = [
     {
         id: 1,
         title: "Total Projects",
-        number: "15+",
+        number: "4+",
         Icon: <IoIosCode />,
     },
     {
