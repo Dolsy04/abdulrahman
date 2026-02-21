@@ -13,7 +13,7 @@ const miniServiceCard = [
     {
         id: 2,
         title: "Years of Experience",
-        number: "03+",
+        number: "02+",
         Icon: <LuTimer />,
     },
     {
