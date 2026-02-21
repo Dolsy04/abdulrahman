@@ -63,7 +63,7 @@ useEffect(() => {
 
     return(<>
         <header className="w-full p-6 sticky top-0 z-20 bg-[#600D9C]/70 backdrop-blur-lg flex items-center justify-between">
-            <h1 className="text-red-400 text-3xl font-bold tracking-wide">Portfolio</h1>
+            <h1 className="text-red-400 text-3xl font-bold tracking-wide">Dev.Rahman</h1>
 
             <nav className={`lg:relative absolute left-0 w-full lg:w-fit bg-[#3C2989] py-2 backdrop-blur-2xl lg:bg-transparent transition-transform duration-300 ease-in-out ${isOpen ? "translate-y-35" : "-translate-y-full"} lg:translate-y-0`}>
                 <ul className="flex items-center gap-5 lg:flex-row flex-col w-full">
